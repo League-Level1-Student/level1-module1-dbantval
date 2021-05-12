@@ -1,4 +1,6 @@
 package _02_cat;
+
+public class CatRunner {
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2019
  *    Level 1
@@ -15,14 +17,13 @@ package _02_cat;
 		* 3. Kill the Cat! 
 		
 		*/
-
-
-public class Cat {
+}
+class Cat {
 
 	private String name;
 	private int lives = 9;
 
-	Cat(String name) {
+	CatRunner(String name) {
 		this.name = name;
 	}
 
